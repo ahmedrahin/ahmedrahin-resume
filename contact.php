@@ -1,0 +1,270 @@
+<?php 
+ob_start();
+include("db.php"); 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <!-- Template Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+  <!-- bootstrap cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- lodersite css -->
+  <link rel="stylesheet" href="css/preloader.min.css">
+
+   <!-- font awsome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <!-- font awsome 4.7.0 cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+   <!-- owl carousel css cdn link -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+   <!-- revelator css link -->
+   <link rel="stylesheet" href="css/fm.revealator.jquery.min.css">
+
+  <!-- css file link -->
+  <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+
+<body>
+
+    <header>
+        <ul>
+            <li>
+                <i class="fa fa-home"></i>
+                <a href="index.html">
+                    <span>home</span>
+                </a>
+            </li>
+            <li>
+                <i class="fa fa-user"></i>
+                <a href="about.html">
+                    <span>about</span>
+                </a>
+            </li>
+            <li>
+                <i class="fa fa-th-large" aria-hidden="true"></i>
+                <a href="portfolio.html">
+                    <span>portfolio</span>
+                </a>
+            </li>
+            <li>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <a href="testimonial.html">
+                    <span>TESTIMONIAL</span>
+                </a>
+            </li>
+            <li class="active">
+                <i class="fa-solid fa-address-book"></i>
+                <a href="contact.html">
+                    <span>contact</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    
+    <div class="responsive-navbar">
+        <ul>
+            <li>
+                <a href="index.html" class="nav-items" title="HOME">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-items" title="ABOUT">
+                    <i class="fa fa-user"></i>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="nav-items" title="PORTFOLIO">
+                    <i class="fa fa-th-large" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="testimonial.html" class="nav-items " title="TESTIMONIAL">
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-items activenav" title="CONTACT">
+                    <i class="fa-solid fa-address-book"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+  <section class="title responsive3 revealator-slideup revealator-once revealator-delay1">
+    <h2>get <span>in</span> touch</h2>
+    <span class="title-bg">contact</span>
+  </section>
+
+  <section class="contact revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div class="contact-info">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <h3>Contact info</h3>
+                            <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                            <div class="communication">
+                                <i class="fa fa-envelope-open"></i>
+                                <span>
+                                   mail me
+                                    <a href="mailto:ahmedrahin660@gmail.com">ahmedrahin660@gmail.com</a>
+                                </span>
+                            </div>
+                            <div class="communication">
+                                <i class="fa fa-phone-square"></i>
+                                <span>
+                                   call me
+                                    <a href="tel:01887497149">(+88) 1887497149</a>
+                                </span>
+                            </div>
+                            <ul class="social-icon contact-social">
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100059527745146" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/RahinAbdullah" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ahmedrahin/" target="_blank">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/rahin36/" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/ahmedrahin" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://aarahin.com" target="_blank">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li class="marketplace">
+                                    <a href="https://www.fiverr.com/abdullahrahin" target="_blank">
+                                        <img src="imges/fiverr.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="marketplace" style="margin-left: -1px;">
+                                    <a href="https://www.upwork.com/freelancers/~01d6e5f95d6239915c" target="_blank">
+                                        <img src="imges/upwork.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="contact-box">
+                                <form action="" method="POST" class="needs-validation" novalidate>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" placeholder="your name" name="yourName" class="form-control"  aria-describedby="inputGroupPrepend" required>
+                                            <div class="invalid-feedback">
+                                            Please enter your name
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="email" placeholder="your email" name="yourEmail" class="form-control" aria-describedby="inputGroupPrepend" required>
+                                            <div class="invalid-feedback">
+                                                Please enter your email
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <textarea placeholder="your message" name="yourMessage" ></textarea>
+                                        </div>
+                                    </div>
+                                    <a href="" class="linkup">
+                                    send message
+                                    <span class="fa fa-send"></span>
+                                    <input type="submit"  name="btnSubmit" value="Submit" class="btnSubmit" >
+                                </a>
+                                   
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <?php 
+  
+    if(isset($_POST['btnSubmit'])){
+
+       $name     = $_POST['yourName'];
+       $email    = $_POST['yourEmail'];
+       $message  = $_POST['yourMessage'];
+
+       $sql = "INSERT INTO clients (name, email, message) VALUES ('$name', '$email', '$message')";
+       $sendDb = mysqli_query($db,$sql);
+
+       if($sendDb){
+        header("Location: contact.php");
+       }
+
+    }
+  
+  ?>
+
+
+    <!-- jqurey link -->
+    <script src="js/jquery-3.6.0.min.js"></script> 
+    <!-- boostrab cdn link js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- lodersite js -->
+<script src="js/preloader.min.js"></script>
+<!-- revelator js link -->
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script>
+    $(".revealator-delay1").addClass('no-transform');
+
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+    
+    <?php ob_end_flush(); ?>
+</body>
+</html>
