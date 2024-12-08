@@ -1010,6 +1010,7 @@ textarea {
     header {display: none !important;}
     .shape {display: none;}
     .home {height: inherit;}
+    #description{padding: 30px 20px 15px;}
     .home img {border-radius: 50%;width: 190px;height: 190px;display: block;margin: 5px auto 26px;}
     .im {padding: 0;}
     h3 {font-size: 19px;}
