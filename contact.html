@@ -213,24 +213,6 @@ include("db.php");
     </div>
   </section>
 
-  <?php 
-  
-    if(isset($_POST['btnSubmit'])){
-
-       $name     = $_POST['yourName'];
-       $email    = $_POST['yourEmail'];
-       $message  = $_POST['yourMessage'];
-
-       $sql = "INSERT INTO clients (name, email, message) VALUES ('$name', '$email', '$message')";
-       $sendDb = mysqli_query($db,$sql);
-
-       if($sendDb){
-        header("Location: contact.php");
-       }
-
-    }
-  
-  ?>
 
 
     <!-- jqurey link -->
